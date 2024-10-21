@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>INVERNADERO</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <h1>CONTROL DE VARIABLES DEL INVERNADERO</h1>
+    <div class="container">
+        <h3>Temperatura:</h3>
+        <input type="text" id="temp" readonly>
+        <h3>Humedad:</h3>
+        <input type="text" id="hume" readonly>
+        <h3>pH:</h3>
+        <input type="text" id="ph" readonly>
+        <h3>Reporte escrito:</h3>
+        <textarea id="texto" rows="4" cols="50" readonly></textarea>
+        <h3>Seleccionar Idioma:</h3>
+        <select id="idioma">
+            <option value="es-ES">Español</option>
+            <option value="en-US">Inglés</option>
+        </select>
+        <input type="button" id="datos" value="Leer datos">
+        <input type="button" id="hablar" value="Reporte">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
